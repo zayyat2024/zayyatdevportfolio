@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+h5{
+  color: white;
+}
+h6{
+  color: white;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+</style>
+</head>
+<body onload="myFunction()" style="margin:0; background-color: rgb(228, 228, 228);">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+    <div class="hero" id="HOME">
+        <img style="color: aqua;" src="images/image.jpg.jpeg" width="29%">
+        <h1 class="hero-text">Hi, I am  <span style="background-color: rgba(0, 0, 0, 0.062); color: rgb(53, 120, 245);">Zayyat</span>  </h1>
+        <h3 style="font-size: 30px; margin-top: 80px;">-- A Computer Scientist & Web Developer !!--  </h3>
+        <p class="nigeria" style="color:  rgb(255, 255, 255); font-weight: 900; ">-- Frontend Developer..</p>
+        <!--This is my buttons for contact me -->
+        <button  style="background-color: rgba(0, 0, 0, 0.726);"type="button"> <img style="color: white; background-color: white;" src="images/download-removebg-preview.png" width="30px"> Contact</button>
+        <button  class="chart" type="button"> <img style="background-color: black;" src="images/download__1_-removebg-preview.png" width="37px">Chart with Me</button><a href="https://www.tiktok.com/@zayyatdeveloper.0?_t=ZM-8wctuHpRtJA&_r=1"><img src="images/download__1_-removebg-preview.png" width="60px"></a><a href="https://www.facebook.com/itzzayyat.stomzyy"><img style="background-color: white; margin-inline-end: 10px;" src="images/download__4_-removebg-preview.png" width="60px">    
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zayyat portfolio </title>
+</head>
+<link href="my logo/favicon.jpg.jpg" rel="icon">
+<link rel="stylesheet" href="style.css">
+<!--This is my body-->
+<body>
+<!--This is my navigation bars-->
+    <nav>
+        <div class="logo"><!--This is my logo section-->
+         <h1> <span>ZD</span>     ZAYYAT DEVELOPER  </h1> 
+        </div>
+        <!--My list navigation bars-->
+        <ul>
+            <li><a href="#HOME" target="_parent">HOME</a></li>
+            <li><a href="#About" target="_parent">ABOUT</a></li>
+            <li><a href="#Skills" target="_parent">SKILLS</a></li>
+            <li><a href="#skill" target="_parent">PORTFOLIO</a></li>
+            <li><a href="#contact" target="_parent">CONTACT ME</a></li>
+<a href="https://www.facebook.com/itzzayyat.stomzyy"><img src="images/download__1_-removebg-preview.png" width="31px"> </a>           
+        </ul>
+    </nav>
+    <!--This is my navigation bars-->
+    <!--This is my herosection form my main image-->
+    </div>
+    <!--This is about section for about me-->
+    <section id="About">
+        <h2 class="about"><marquee style="width: 280px;">About Me</marquee> </h2>
+        <hr style="width: 10%; border: none; background-color: green; padding: 3px; ">
+        <img src="about/about.jpg.jpg"  class="small"><p style="color: white; line-height: 40px; font-size: larger;"> My Job is to buid your Website so that it is functional and user-friendly but of the same time<br> Moreover, I add personal touch to your product and make sure that is eye -catching and easy<br> to use creative way i created Web Design But am still Learning. <br>Am beginer web developer i code Html, Css and Java script, i work at shanonos computer<br>where i do my Business as Computer Operator their at shanonos Computer Wizard Located <br>at Bauchi state Yelwa tudu bauchi  </p>
+        <button class="btn">Read More </button>
+    </section>
+    <!--This is  my skills section -->
+    <section id="skills">
+        <h2 class="skill" id="Skills">-- What i do --</h2>
+        <!--my Horizontal rule-->
+         <hr style="width: 90%; border: none; margin-right:10px ; background-color: green; padding: 3px; ">
+    </section>
+    <!--section for what i do blocks-->
+    <div class="row">
+        <!--this is my column 1-->
+        <div class="column">
+            <h4>WEB DEVELOPMENT</h4>
+            <P>I Program simple Websites  <br> Using Html, CSS  <br> and Javascript <br>For small Business Shops </P>
+            <button style="border: none; padding: 9px; text-align: center; justify-content: center; width: 30%; margin-left: 40px; font-weight: 100; font-size: medium;" class="read">Hire Me</button>
+        </div>
+        <!--This is my column 1 Ends-->
+        <!--This is my column 2 starts-->
+        <div class="column">
+            <img src="COLUMN 3/notepad.png" width="60px">
+            <h4>GRAPHIC DESIGN</h4>
+            <P>I do graphic design for small business, <br> Like Business card<br> Banner  <br>and other design. </P>
+            <button style="border: none; padding: 8px; text-align: center; justify-content: center; width: 30%; margin-left: 50px; font-weight: 100; font-size: medium;" class="read">Hire Me</button>
+        </div>
+        <!--This is my column two ends-->
+        <!--This is my column 3 start-->
+        <div class="column">
+            <h4>INTERNET SERVICE</h4>
+            <P>i do Online payment like, <br> school Fees and<br> other school registration<br>following online. </P>
+            <button style="border: none; padding: 8px; text-align: center; justify-content: center; width: 30%; margin-left: 50px; font-weight: 300; font-size: medium;" class="read">Hire Me</button>
+        </div>
+        <!--This is my column 3 ends-->
+    </div>
+<!--This is my skills sections-->    
+<h2 id="skill" style="color: rgb(255, 255, 255); margin: 300px; margin-bottom: 30px; text-align: center; font-weight: 800; font-size: 40px;">My <span style="background-color: none; font-weight: 700;" class="content">Skills</span> </h2>
+
+<div class="row">
+    <div style="background-color: rgba(0, 0, 0, 0.438); box-shadow: 0 2px 2px;" class="column">
+        <img style="border-radius: 10px; margin-left: 30px;" src="html/download (1).png" width="30%">
+<h4 style="text-align: center; font-family: cursive; font-size: 40px;">HTML</h4>        
+<p style="color:rgb(38, 238, 38); text-align: center; font-size: larger;"> Expert -- 100%</p>
+    </div>
+<div style="background-color: rgba(0, 0, 0, 0.404); box-shadow: 0 2px 2px;" class="column" ><marquee style="width: 280%; font-size: 60px;">* * *</marquee>
+        <img style="border-radius: 30px; margin-left: 30px; padding: 20px; width: 50%;" src="html/download (2).png" width="30%">
+<h4 style="text-align: center; font-family: cursive; font-size: 40px;">CSS</h4>        
+<p style="color:rgb(38, 238, 38); text-align: center; font-size: larger;"> Expert -- 100%</p>
+    </div>
+    <div style="background-color: rgba(0, 0, 0, 0.212); box-shadow: 0 2px 2px; margin-top: 40px;" class="column">
+        <img style="border-radius: 30px; margin-left: 30px; padding: 10px; width: 50%;" src="html/download (3).png" width="30%">
+<h4 style="text-align: center; font-family: cursive; font-size: 40px;">Javascript</h4>        
+<p style="color: rgb(255, 94, 0); text-align: center; font-size: larger;"> Expert -- 20%</p>
+    </div>
+</div>
+<!--This is contact me section-->
+<h2 id="contact">Contact <span >Me</span></h2>
+<img style="background-color: white; margin: 30px;" src="images/download-removebg-preview.png" width="50px"> <h5 style="text-align: left; font-size: larger;">Phone <hr> <br> 07033807736</h5>
+<img style="background-color: white; margin: 30px;" src="images/download__1_-removebg-preview.png" width="50px"><h5 style="text-align: left; font-size: larger;">Whatsapp <hr> <br> Chart on Whatsapp</h5>
+<img style="background-color: white; margin: 30px;" src="images/download__4_-removebg-preview.png" width="50px"><h5 style="text-align: left; font-size: larger;">facebook<hr> <br> Chart @ facebook--- Zayyat Ibrahim</h5>
+<img style="background-color: white; margin: 30px;" src="images/Gmail_Icon.png" width="50px"><h5 style="text-align: left; font-size: larger;">Email <hr> <br> Zayyanuyunusa227@gmail.com</h5>
+<!--This is send me a message section-->
+<style>
+   body{
+    background-color: rgba(128, 128, 128, 0.075);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: white;
+   }
+   h1{
+    color: white;
+    text-align: center;
+   }
+   form{
+        font-family: serif;
+border: 1px solid;
+padding: 200px;
+width: 25%;
+border: none;
+background-color: rgba(36, 124, 124, 0.226);
+border-radius: 50px 30%;
+box-shadow: 0 2px 2px;
+    }
+    input{
+        margin: 10px;
+        padding: 5px;
+        width: 100%;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 0 1px 1px;
+        font-family: serif;
+        font-weight: 400;
+        font-size: large;
+    }
+    textarea{
+background-color: bisque;
+    }
+    .dass{
+        border: none;
+        padding: 10px 25px;
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        margin: 30px 90px;
+        background-color: rgb(5, 29, 9);
+        color: white;
+        cursor: pointer;
+    }
+    .talk{
+      
+        padding: 7px;
+        text-align: center;
+         transition-duration: 6s;
+    }
+    h2:hover{
+        background-color: rgb(7, 32, 32);
+        cursor: pointer;
+transition-duration: 12s;
+    }
+    
+</style>
+<!-- modify this form HTML and place wherever you want your form -->
+
+<form
+  action="https://formspree.io/f/xkgbrzor"
+  method="POST"
+>
+<h2 class="talk" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Hello Am Zayyat  !!!</h2>
+<h1>Send me A message</h1>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+    <label>
+    Phone No:
+    <input type="text" name="Number">
+  </label>
+  <label><br>
+    Your message:
+    <textarea cols="29" rows="3" name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button class="dass" type="submit">Send Message</button>
+</form>
+
+<div class="footer">
+    <h6>&copyright @ ZayyatDev 2025<br style="color: blue; background-color: blue;">Address: Yelwa Tudu Bauchi, Bauchi state </h6>
+</div>
+<!--This is my footer for more information-->
+</body>
+</html>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+</body>
+</html>
